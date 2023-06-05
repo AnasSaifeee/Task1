@@ -1,0 +1,68 @@
+body
+{
+    margin: 0;
+}
+.container {
+    position: relative;
+    
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.food
+{
+    height: 100vh;
+    filter:brightness(40%);
+}
+p
+{
+    font-style: italic;
+    font-size: 20px;
+}
+button
+{
+    height: 40px;
+    width: 120px;
+    transform: scale(1);
+}
+.top-left {
+    color: white;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  .bottom-left {
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  
+  .wrapper {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-gap: 20px;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .box {
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+    margin-left: 70px;
+
+  }
+  .wrapper
+  {
+    position: fixed;
+    transform: translateY(-35rem);
+  }
